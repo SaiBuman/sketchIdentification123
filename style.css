@@ -1,3 +1,29 @@
 body {
     background-color:#48ff0083;
 }
+
+h1 {
+   color: aqua; 
+   background-color: aliceblue;
+}
+
+#show {
+    float: right;
+}
+
+p {
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+canvas {
+    border: 5px solid #00ff4c;
+    margin-top: 85px;
+    border-radius: 20px;
+    animation: example 4s infinite;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 40px #5d38ff;}
+    to{box-shadow: 5px 5px 40px #2f2f2f;}
+}
+ 
